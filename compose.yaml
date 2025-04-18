@@ -2,6 +2,6 @@ services:
   spring_dockerizing:
     build:
       context: .
-      dockerfile: Dockerfile
+    image: sysoiev/kub_docker_compose_spring_web:1
     ports:
       - "8080:8080"
